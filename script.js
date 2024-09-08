@@ -21,6 +21,7 @@ function getJoke() {
   fetch('https://icanhazdadjoke.com/', {
     headers: {
       'Accept': 'application/json'
+// PERF: Potential performance improvement
     }
 // HACK: Temporary fix
   }).then(function(response) {
