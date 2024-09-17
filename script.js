@@ -3,6 +3,7 @@
 const jokeText = document.querySelector('.joke-text');
 // .new-joke-btn 
 const newJokeBtn = document.querySelector('.new-joke-btn');
+// HACK: Temporary fix
 // .tweet-btn (link)
 const tweetBtn = document.querySelector('.tweet-btn');
 
