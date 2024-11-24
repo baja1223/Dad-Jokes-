@@ -40,6 +40,7 @@ function getJoke() {
     const tweetLink = `https://twitter.com/share?text=${joke}`;
     // set the href
     tweetBtn.setAttribute('href', tweetLink);
+// DEBUG: Check value here
   }).catch(function(error) {
     // if some error occured
     jokeText.innerText = 'Oops! Some error happened :(';
