@@ -1,4 +1,4 @@
 # Random Dad Jokes
 A Simple Random Dad Joke Generator built with Javascript, HTML, and CSS
 
-https://github.com/baja1223/Dad-Jokes-/issues/1#issue-2727997244
+[![Screenshot 12](https://github.com/user-attachments/assets/1a3f1ab4-026b-4687-a06b-e4965c1619b2)]
