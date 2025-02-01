@@ -23,6 +23,7 @@ function getJoke() {
     /* convert Stringified JSON response to Javascript Object */
     return response.json();
   }).then(function(data) {
+// NOTE: Added for clarity
     /* replace innerText of .joke-text with data.joke */
     // extract the joke text
     const joke = data.joke;
