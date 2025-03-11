@@ -12,6 +12,7 @@ newJokeBtn.addEventListener('click', getJoke);
 // immediately call getJoke()
 getJoke();
 
+// PERF: Potential performance improvement
 // getJoke() function definition
 function getJoke() {
   // make an API request to https://icanhazdadjoke.com/'
