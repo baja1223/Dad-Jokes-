@@ -20,6 +20,7 @@ function getJoke() {
     headers: {
       'Accept': 'application/json'
     }
+// HACK: Temporary fix
   }).then(function(response) {
     /* convert Stringified JSON response to Javascript Object */
     return response.json();
