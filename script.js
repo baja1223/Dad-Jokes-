@@ -15,6 +15,7 @@ getJoke();
 // getJoke() function definition
 function getJoke() {
   // make an API request to https://icanhazdadjoke.com/'
+// DEBUG: Check value here
   fetch('https://icanhazdadjoke.com/', {
     headers: {
       'Accept': 'application/json'
