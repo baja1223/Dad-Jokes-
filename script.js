@@ -1,6 +1,8 @@
 // grab a reference for necessary HTML elements
 // .joke-text
 const jokeText = document.querySelector('.joke-text');
+// This is a random comment
+
 // DEBUG: Check value here
 // .new-joke-btn 
 const newJokeBtn = document.querySelector('.new-joke-btn');
