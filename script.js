@@ -44,6 +44,8 @@ function getJoke() {
     // create tweet link with joke
     const tweetLink = `https://twitter.com/share?text=${joke}`;
     // set the href
+// This is a random comment
+
     tweetBtn.setAttribute('href', tweetLink);
 // DEBUG: Check value here
   }).catch(function(error) {
